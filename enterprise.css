@@ -32,7 +32,7 @@ header {
     display: flex;
     -webkit-flex-direction: row;
     flex-direction: row; 
-    height: 63%;
+    height: 40%;
     padding-top: 5%;
     overflow: hidden;
 }
@@ -41,11 +41,15 @@ header {
 }
 .right { -webkit-flex: 8.5;
     flex: 8.5;
-    position: relative;  
+    position: relative;
+}
+.rectangle{ 
+    height: 62%;
+
     padding-left: 7%;
     padding-right: 6%;
     padding-bottom: 3%;
-    overflow: hidden;
+    overflow: auto;
     font-size: large;  
 }
 .left ul { list-style-type: none; 
